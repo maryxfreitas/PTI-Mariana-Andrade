@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-imagem{
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.about{
+    background-color: #e1f8e8;
+}
+
+.services{
+    background-color: #e1f8e8;
+}
+
+.advantages{
+    background-color: #e1f8e8;
+}
+
+.contact{
+    background-color: #e1f8e8;
+}
+
+header {
+    background-color: #36b55c;
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact .btn,
+.form .btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #36b55c;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    header, section, footer {
+        padding: 10px;
+    }
+    .form {
+        display: block;
+    }
+}
